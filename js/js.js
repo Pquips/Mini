@@ -1,3 +1,7 @@
+function top() {
+    window.scrollTo(0, 0);
+}
+
 function willyA(e){
 	document.getElementById("heaven").play();
 }
