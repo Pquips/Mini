@@ -35,8 +35,12 @@ display: none;
 	font-family: 'Prosto One', cursive;
 	color:white;
 	text-align:center;
-    vertical-align: middle;
+    	vertical-align: middle;
 	font-size: 3em;
+}
+.quote {
+	position:absolute;
+
 }
 
 .h2 {
