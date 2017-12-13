@@ -166,6 +166,21 @@ display: none;
 	-ms-user-select: none;
 }
 
+
+.hover {
+	height:93%;
+	transition: .3s ease-in-out;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	vertical-align: middle;
+}
+
+.hover:hover {
+	height:100%;
+}
+
 .T1 {
 	content: url(images/topP1.png);
 }
@@ -254,7 +269,20 @@ display: none;
 	.parallax{
 		height:40vh;
 	}
+	
+	.hover {
+	width:93%;
+	transition: .3s ease-in-out;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	vertical-align: middle;
+	}
 
+	.hover:hover {
+		width:100%;
+	}
 	.T1 {
 		content: url(images/topT1.png);
 	}
