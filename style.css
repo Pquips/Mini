@@ -65,8 +65,8 @@ display: none;
 }
 
 .content {
-	min-width:100%;
-	min-height:80%;
+	width:100%;
+	max-height:80%;
 	display:block;
 }
 
