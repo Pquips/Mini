@@ -1,0 +1,357 @@
+/* Paste in code from your old files to save time and avoid typos! */
+
+body {
+	margin:0px;
+	width:100vw;
+	height:100vh;
+}
+
+img:hover{
+	cursor: pointer;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display:block;
+}
+
+.title {
+	min-width:100%;
+	min-height:20%;	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.h1 {
+	font-family: 'Prosto One', cursive;
+	color:white;
+	text-align:center;
+    vertical-align: middle;
+	font-size: 3em;
+}
+
+.h2 {
+	font-family: 'Dosis', sans-serif;
+	color:#e2e2e2;
+	text-align:center;
+    vertical-align: middle;
+	font-size: 2em;
+}
+
+.content {
+	min-width:100%;
+	min-height:80%;
+	display:block;
+}
+
+.quarter {
+	width:100%;
+	height:	calc(100%/4);
+	align-items: center;
+	justify-content: bottom;
+}
+
+.nav {
+	width:100%;
+	height:50px;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	z-index:800;
+}
+
+.navspace{
+	width:100%;
+	height:50px;
+}
+
+.willy {
+	display:block;
+	width:100%;
+	height:210vw;
+}
+
+.face {
+	width: 100%;
+	height: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.spacing{
+	height:45px;
+	width:100%;
+}
+
+.back{
+	height:100vh;
+	width:100%;	
+}
+
+.parallaxh{
+	position:relative;
+	height:210vw;
+	width:100%;
+
+}
+
+.parallax{
+	position:relative;
+	height:100vh;
+	width:100%;
+
+}
+.top{
+	bottom:0;
+	position:absolute;
+	background-repeat: repeat-x;
+	height:40px;
+	width:100%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.bottom{
+	top:0;
+	position:absolute;
+	background-repeat: repeat-x;
+	height:110px;
+	width:100%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.T1 {
+	content: url(images/topP1.png);
+}
+
+.B1 {
+	content: url(images/bottomP1.png);
+}
+
+.T2 {
+	content: url(images/topP2.png);
+}
+
+.B2 {
+	content: url(images/bottomP2.png);
+}
+
+.T3 {
+	content: url(images/topP3.png);
+}
+
+.B3 {
+	content: url(images/bottomP3.png);
+}
+.footer {
+	width:100%;
+	height:50px;
+}
+
+@media (min-width: 420pt) {
+	
+	.container{
+		display:flex;
+	}
+	
+	.nav {
+		width:100%;
+		height:4vw;
+	}
+	
+	.navspace{
+		width:100%;
+		height:4vw;
+	}
+	
+	.title {
+		min-width:20%;
+		min-height:100%;
+	}
+	
+	.content {
+		min-width:80%;
+		min-height:100%;
+		display:flex;
+	}
+	.quarter {
+		width:calc(100%/4);
+		height:	100%;
+	}
+
+	.willy {
+		display: flex;
+		height:54vw;
+	}
+	
+	.face {
+		width: 50vw;
+		height: 50vw;
+	}
+	
+	.spacing{
+		height:65px;
+	}
+	
+	.back{
+		height:50vh;
+	}
+
+	.parallaxh{
+		height:54vw;
+	}
+	
+	.parallax{
+		height:40vh;
+	}
+
+	.T1 {
+		content: url(images/topT1.png);
+	}
+	
+	.B1 {
+		content: url(images/bottomT1.png);
+	}
+	
+	.T2 {
+		content: url(images/topT2.png);
+	}
+	
+	.B2 {
+		content: url(images/bottomT2.png);
+	}
+
+	.T3 {
+		content: url(images/topT3.png);
+	}
+	
+	.B3 {
+		content: url(images/bottomT3.png);
+	}
+	
+	.footer {
+		width:100%;
+		height:4vw;
+	}
+}
+
+@media (min-width: 1250px) {
+	.container {
+    	max-width: 1250px;
+	}
+	
+	.willy {
+		display: flex;
+		height:50vw;
+	}
+	.face {
+		height: 45vw;
+	}
+	
+	.back{
+		height:50vh;
+	}
+	
+	.parallaxh{
+		height:50vw;
+	}
+	.parallax{
+		height:50vh;
+	}
+	
+	.T1 {
+		content: url(images/topD1.png);
+	}
+	
+	.B1 {
+		content: url(images/bottomD1.png);
+	}
+	
+	.T2 {
+		content: url(images/topD2.png);
+	}
+	
+	.B2 {
+		content: url(images/bottomD2.png);
+	}
+
+	.T3 {
+		content: url(images/topD3.png);
+	}
+	
+	.B3 {
+		content: url(images/bottomD3.png);
+	}
+	
+	.footer {
+		width:100%;
+		height:4vw;
+	}
+}
+
+.hover {
+	width:93%;
+	transition: .3s ease-in-out;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	vertical-align: middle;
+}
+
+.hover:hover {
+	width:100%;
+}
+.willyA {
+	content: url(images/willyA.png);
+}
+	
+.willyD {
+	content: url(images/willyD.png);
+}
+
+.blackops2{
+	content: url(images/blackops2.jpg);
+}
+
+.gtav{
+	content: url(images/gtav.jpg);
+}
+
+.minecraft{
+	content: url(images/minecraft.jpg);
+}
+
+.fifa{
+	content: url(images/fifa.jpg);
+}
+
+.angeltee {content: url(images/angeltee.jpg);}
+.demontee {content: url(images/demontee.jpg);}
+.angelsweater {content: url(images/angelsweater.jpg);}
+.demonsweater {content: url(images/demonsweater.jpg);}
+.B {background-color:#000000;}
+.D {background-color:#40003F;}
+.P {background-color:#7B0078;}
+.L {background-color:#B800B5;}
+
