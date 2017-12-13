@@ -363,8 +363,8 @@ display: none;
 		height:4vw;
 	}
 }
-
-/*.hover {
+/*
+.hover {
 	width:93%;
 	transition: .3s ease-in-out;
 	margin:auto;
@@ -373,16 +373,38 @@ display: none;
 	display: block;
 	vertical-align: middle;
 }
-*/
+
 
 .hover:hover {
 	width:100%;
 }
+*/
 .circle {
 	border-radius:360px;
 }
-.willyA {content: url(images/willyA.png);}
-.willyD {content: url(images/willyD.png);}
+.willyA {
+	content: url(images/willyA.png);
+	width:93%;
+	transition: .3s ease-in-out;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	vertical-align: middle;
+}
+.willyD {
+	content: url(images/willyD.png);
+	width:93%;
+	transition: .3s ease-in-out;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	vertical-align: middle;
+}
+.willyA:hover, .willyD:hover {
+	width:100%;
+}
 .blackops2 {content: url(images/blackops2.jpg);}
 .gtav {content: url(images/gtav.jpg);}
 .minecraft {content: url(images/minecraft.jpg);}
