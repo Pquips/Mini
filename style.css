@@ -364,7 +364,7 @@ display: none;
 	}
 }
 
-.hover {
+/*.hover {
 	width:93%;
 	transition: .3s ease-in-out;
 	margin:auto;
@@ -373,6 +373,7 @@ display: none;
 	display: block;
 	vertical-align: middle;
 }
+*/
 
 .hover:hover {
 	width:100%;
