@@ -38,9 +38,22 @@ display: none;
     	vertical-align: middle;
 	font-size: 3em;
 }
-.quote {
+.center{
+	min-width:100%;
+	min-height:20%;	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	z-index:5;
 	position:absolute;
-
+}
+.quote {
+	font-family: 'Marck Script', cursive;
+	color:white;
+	text-align:center;
+    	vertical-align: middle;
+	font-size: 3em;
 }
 
 .h2 {
