@@ -269,7 +269,6 @@ display: none;
 	}
 	
 	.hover {
-	width:93%;
 	transition: .3s ease-in-out;
 	margin:auto;
 	margin-left:auto;
@@ -279,7 +278,7 @@ display: none;
 	}
 
 	.hover:hover {
-		width:100%;
+
 	}
 	.T1 {
 		content: url(images/topT1.png);
