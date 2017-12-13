@@ -164,9 +164,8 @@ display: none;
 	-ms-user-select: none;
 }
 
-
-.hover {
-
+.hoverw {
+	width:93%;
 	transition: .3s ease-in-out;
 	margin:auto;
 	margin-left:auto;
@@ -175,8 +174,37 @@ display: none;
 	vertical-align: middle;
 }
 
-.hover:hover {
 
+.hoverw:hover {
+	width:100%;
+}
+
+.hoverq {
+	height:93%;
+	transition: .3s ease-in-out;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	vertical-align: middle;
+}
+
+.hoverq:hover {
+	height:100%;
+}
+
+.hovert {
+	height:93%
+	transition: .3s ease-in-out;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	vertical-align: middle;
+}
+
+.hovert:hover {
+	height:100%
 }
 
 .T1 {
@@ -268,17 +296,24 @@ display: none;
 		height:40vh;
 	}
 	
-	.hover {
-	transition: .3s ease-in-out;
-	margin:auto;
-	margin-left:auto;
-	margin-right:auto;
-	display: block;
-	vertical-align: middle;
+	.hoverq {
+		height:auto;
+		width:93%
 	}
 
-	.hover:hover {
+	.hoverq:hover {
+		height:auto;
+		width:100%
+	}
+	
+	.hovert {
+		height:auto;
+		width:93%
+	}
 
+	.hovert:hover {
+		height:auto;
+		width:100%
 	}
 	.T1 {
 		content: url(images/topT1.png);
@@ -364,20 +399,7 @@ display: none;
 	}
 }
 
-.hoverw {
-	width:93%;
-	transition: .3s ease-in-out;
-	margin:auto;
-	margin-left:auto;
-	margin-right:auto;
-	display: block;
-	vertical-align: middle;
-}
 
-
-.hoverw:hover {
-	width:100%;
-}
 
 .circle {
 	border-radius:360px;
