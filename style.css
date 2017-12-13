@@ -166,7 +166,7 @@ display: none;
 
 
 .hover {
-	height:93%;
+
 	transition: .3s ease-in-out;
 	margin:auto;
 	margin-left:auto;
@@ -176,7 +176,7 @@ display: none;
 }
 
 .hover:hover {
-	height:100%;
+
 }
 
 .T1 {
