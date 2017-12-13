@@ -1,5 +1,6 @@
-function top() {
+function top(e) {
     window.scrollTo(0, 0);
+	document.scrollTo(0, 0);
 }
 
 function willyA(e){
