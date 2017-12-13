@@ -60,6 +60,13 @@ display: none;
 	align-items: center;
 	justify-content: center;
 }
+.third {
+	width:100%;
+	height:	calc(100%/3);
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
 
 .nav {
 	width:100%;
@@ -199,6 +206,10 @@ display: none;
 	}
 	.quarter {
 		width:calc(100%/4);
+		height:	100%;
+	}
+	.third {
+		width:calc(100%/3);
 		height:	100%;
 	}
 
