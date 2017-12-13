@@ -55,7 +55,9 @@ display: none;
     	vertical-align: middle;
 	font-size: 5em;
 }
-
+#top {
+	color:white;
+}
 .h2 {
 	font-family: 'Dosis', sans-serif;
 	color:#e2e2e2;
