@@ -411,7 +411,9 @@ display: none;
 	}
 }
 
-
+.power-up {
+	content:url(images/vegeta1.png);
+}
 
 .circle {
 	border-radius:360px;
