@@ -1,16 +1,16 @@
-function at(e){
+function atw(e){
 	document.getElementById("at").classList.toggle("angelteeb");
 }
 
-function dt(e){
+function dtw(e){
 	document.getElementById("dt").classList.toggle("demonteeb");
 }
 
-function as(e){
+function asw(e){
 	document.getElementById("as").classList.toggle("angelsweaterb");
 }
 
-function ds(e){
+function dsw(e){
 	document.getElementById("ds").classList.toggle("demonsweaterb");
 }
 
