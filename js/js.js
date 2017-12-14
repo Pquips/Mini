@@ -1,12 +1,22 @@
-function top(e) {
-    window.scrollTo(0, 0);
-	document.scrollTo(0, 0);
+function at(e){
+	document.getElementById("at").classList.toggle("angelteeb");
+}
+
+function dt(e){
+	document.getElementById("dt").classList.toggle("demonteeb");
+}
+
+function as(e){
+	document.getElementById("as").classList.toggle("angelsweaterb");
+}
+
+function ds(e){
+	document.getElementById("ds").classList.toggle("demonsweaterb");
 }
 
 function willyA(e){
 	document.getElementById("heaven").play();
 }
-
 
 function willyD(e){
 	document.getElementById("hell").play();
