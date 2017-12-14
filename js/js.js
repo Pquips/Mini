@@ -14,6 +14,10 @@ function ds(e){
 	document.getElementById("ds").classList.toggle("demonsweaterb");
 }
 
+function changePicture(e){
+	document.getElementById("vegeta").classList.toggle("power-up");
+}
+
 function willyA(e){
 	document.getElementById("heaven").play();
 }
