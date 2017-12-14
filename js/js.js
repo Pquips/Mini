@@ -5,7 +5,7 @@ function willyA(e){
 
 function willyD(e){
 	document.getElementById("hell").play();
-	
+}
 //When onclick="willyD" in HTML triggers id="hell" which is connected to hell.mp3 to play
 	
 function atw(e){
