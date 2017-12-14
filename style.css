@@ -138,7 +138,7 @@ display: none;
 	width:100%;
 }
 
-.back{
+.section{
 	height:200vh;
 	width:100%;	
 }
@@ -306,7 +306,7 @@ display: none;
 		height:65px;
 	}
 	
-	.back{
+	.section{
 		height:60vh;
 	}
 
@@ -381,7 +381,7 @@ display: none;
 		height: 45vw;
 	}
 	
-	.back{
+	.section{
 		height:60vh;
 	}
 	
