@@ -203,67 +203,6 @@ display: none;
 	width:50%;
 }
 
-
-#at {
-	width:43%;
-	height:93%;
-	transition: .3s ease-in-out;
-	margin:auto;
-	margin-left:auto;
-	margin-right:auto;
-	display: block;
-	vertical-align: middle;
-}
-
-#at:hover {
-	width:50%;
-}
-
-
-#dt {
-	width:43%;
-	height:93%;
-	transition: .3s ease-in-out;
-	margin:auto;
-	margin-left:auto;
-	margin-right:auto;
-	display: block;
-	vertical-align: middle;
-}
-
-#dt:hover {
-	width:50%;
-}
-
-#as {
-	width:43%;
-	height:93%;
-	transition: .3s ease-in-out;
-	margin:auto;
-	margin-left:auto;
-	margin-right:auto;
-	display: block;
-	vertical-align: middle;
-}
-
-#as:hover {
-	width:50%;
-}
-
-#ds {
-	width:43%;
-	height:93%;
-	transition: .3s ease-in-out;
-	margin:auto;
-	margin-left:auto;
-	margin-right:auto;
-	display: block;
-	vertical-align: middle;
-}
-
-#ds:hover {
-	width:50%;
-}
 .hovert {
 	width:60%;
 	height:93%;
@@ -389,45 +328,6 @@ display: none;
 		width:100%
 	}
 	
-	#at {
-		height:auto;
-		width:93%
-	}
-
-	#at:hover {
-		height:auto;
-		width:100%
-	}
-	
-	#dt {
-		height:auto;
-		width:93%
-	}
-
-	#dt:hover {
-		height:auto;
-		width:100%
-	}
-	
-	#as {
-		height:auto;
-		width:93%
-	}
-
-	#as:hover {
-		height:auto;
-		width:100%
-	}
-	
-	#ds {
-		height:auto;
-		width:93%
-	}
-
-	#ds:hover {
-		height:auto;
-		width:100%
-	}
 	.T1 {
 		content: url(images/topT1.png);
 	}
